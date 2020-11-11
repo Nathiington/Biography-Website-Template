@@ -1,5 +1,140 @@
+.bg{
+    background-image: url("bg.gif");
+    color: rgb(68, 180, 255);
+    padding-bottom: 10%;
+}
 
 .title{
     text-align: center;
-    padding-left: 20%;
+    
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+    color: rgb(68, 180, 255);
+  display: block;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*menu button styling*/
+.menu{
+    font-size: 60px;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+   color: rgb(68, 180, 255);
+}
+
+/**/
+header{
+    padding-bottom: 80px;
+}
+
+.slide-container{
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    align-items: center;
+   
+}
+
+.card-body{
+    background-color: rgb(161, 161, 161);
+    color: #111111;
+    padding-bottom: 50px;
+}
+
+.card-columns{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.card-p-3{
+    background-color: rgb(161, 161, 161);
+}
+
+.card-p-3-text-right{
+  background-color: rgb(161, 161, 161); 
+  color: #111;
+  padding-bottom: 50px; 
+  margin-bottom: 50px;
+}
+
+.slide1{
+  height: 400px;
+  width: 600px;
+}
+
+td{
+  align-items: center;
+  margin: 10%;
+}
+
+.car-size{
+  height: 480px;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+  z-index: 0;
+}
+
+.carousel-item{
+   margin-bottom: 25px; 
+  margin-top: 25px;
+}
+
+h4{
+  background-color: #111;
+}
+
+
+*{
+   z-index: 0;
+}
+
+.cards{
+  padding-top: 250px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
