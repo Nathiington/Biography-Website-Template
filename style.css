@@ -1,7 +1,9 @@
 .bg{
-    background-image: url("bg.gif");
+    background-image: url("images/bg.gif");
     color: rgb(68, 180, 255);
     padding-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title{
@@ -28,7 +30,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-    color: rgb(68, 180, 255);
+  color: rgb(68, 180, 255);
   display: block;
   transition: 0.3s;
   text-align: center;
@@ -78,7 +80,7 @@ header{
 }
 
 .card-body{
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(129, 129, 129);
     color: #111111;
     padding-bottom: 50px;
 }
@@ -135,6 +137,18 @@ h4{
 
 .cards{
   padding-top: 250px;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card a:link , a:visited{
+  text-decoration: underline;
+   color: white;
+   font-weight: bold;
+}
+
+.card a:hover{
+  color: rgb(255, 238, 0);
+  text-decoration: underline;
+  font-weight: bold;
 }
